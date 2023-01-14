@@ -1,0 +1,30 @@
+{
+   "action": {
+      "default_icon": "/images/icon.png",
+      "default_title": "Netflixy • نتفلكسي"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "declarative_net_request": {
+      "rule_resources": [ {
+         "enabled": true,
+         "id": "ruleset",
+         "path": "rules.json"
+      } ]
+   },
+   "description": "Profitez d’une meilleure expérience NETFLIX",
+   "host_permissions": [ "https://*.facebook.com/*", "https://*.netflix.com/*" ],
+   "icons": {
+      "128": "/images/icon.png",
+      "16": "/images/icon.png",
+      "32": "/images/icon.png",
+      "48": "/images/icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvykeuYH7dJNd65cIw6rs3/74Yycz4bs4C0kB7CAGkb6Jlh0r7R1cQE2pOk2XqZDlIJY0u2xPdlL4Ttql1HHWPVvTOvwRwqvd/9quyN3NVB2JBO1Lnc3FpBYq+/6kV3KxziJwLYS9nFP1haMu7RPDXbztKBMJRmd+41gXnTJ7ZaMEuTR+XR2god8h7QlDjxrWweZeY0AIzXu/Z9jWfLv3uw9Zmp39XY681rZxQ4XMPa86YeJ5xt/bE4LNfRH7yXmvErgpdfEj95GlgCZzE+ehpwGJo51altT8wW1dIMrwQZMpQWFpgBxwA3uLSDadoJEo82/Fy9wPaaNT9b/Z5F8VfwIDAQAB",
+   "manifest_version": 3,
+   "name": "Netflixy • نتفلكسي",
+   "permissions": [ "cookies", "storage", "tabs", "declarativeNetRequest" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2.6"
+}
